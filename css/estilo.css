@@ -160,6 +160,7 @@ side_logo
     width: 6em;
     position: fixed;
     transition: width 200ms ease;
+    z-index:1;
 }
 
 .sidenav ul {
@@ -253,6 +254,16 @@ side_logo
 .bem_vindo iframe {
     padding: 30px;
 }
+
+.bem_vindo h2{
+
+    font-family:'Times New Roman', Times, serif;
+}
+
+.bem_vindo h2 span{
+ color: rgb(0, 162, 138);
+}
+
 
 .botoes_painel {
     display: grid;
@@ -640,7 +651,7 @@ fieldset.form_grupo .form_campo {
     color: #71A0FF;
     font-size: 1.5em;
 }
-
+sidenav
 .footer a {
     font-size: 1.2em;
     display: block;
@@ -742,7 +753,7 @@ fieldset.form_grupo .form_campo {
   
   .button-content {
     position: relative;
-    z-index: 1;
+    z-index: 0;
   }
   
   .button::before {
